@@ -20,4 +20,5 @@ from .import view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',view.versa),
+    path('reverse/',view.reverse,name = 'reverse')
 ]   

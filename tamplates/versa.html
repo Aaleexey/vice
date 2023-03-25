@@ -16,11 +16,11 @@
 </head>
 <body>
 	<h1>Vice versa</h1>
-
-	<p1>
-		<textarea name="text" id='text' cols='30' rows = '10' placeholder="Введите текст..." color = 'red'>'Сейчас включуdas da sdasdasda'</textarea>
-	</p1>
-	<p> <input type="button" name="Reverse!" value="Reverse!" /></input> </p>
-
+	<form action="{%url 'reverse' %}"> 
+		<p1>
+		<textarea name="text" cols='30' rows = '10' placeholder="Введите текст..." color = 'red'></textarea>
+		</p1>
+		<p> <input type="submit" value="Reverse!" /></input> </p>
+	</form>
 </body>
 </html>
